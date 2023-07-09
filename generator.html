@@ -1,5 +1,6 @@
-<html>
+<html lang="en-ie">
     <head>
+        <title>XCOM MVP Sentence Generator</title>
         <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
         <script src="sources.js"></script>
         <link href="generator.css" rel="stylesheet"/>
@@ -23,7 +24,7 @@
                 <input x-model="operationName" id="missionName">
                 <button @click="buildSentence()">Generate</button>
 
-                <p x-text="sentence"></p>
+                <p id="result" x-text="sentence"></p>
             </div>
 
         </main>

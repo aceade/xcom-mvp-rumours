@@ -1,6 +1,14 @@
 button {
     color: white;
-    background: red;
+    background: #4D0000;
     padding: 0.5rem;
     border-radius: 10px;
+}
+
+main {
+    border-bottom: 3px solid black;
+}
+
+#result {
+    font-size: 1.5rem;
 }

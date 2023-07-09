@@ -124,7 +124,7 @@ const secondEntries = [
 	"their driving caused the Assassin to refuse to get into a car for the rest of her life",
 	"they are on first-name terms with the Gman",
 	`they once defeated the Warlock with ${getRandomIndex(prankItems)}`,
-	"the Thalmor name for them translates as 'Just run'",
+	"the Thalmor name for them translates as 'F***ing Run!'",
 	"they have 11 PHDs in Engineering",
 	"the Warlock is in the same guild as them in World of Wololo"
 ];
