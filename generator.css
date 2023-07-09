@@ -1,7 +1,7 @@
 button {
     color: white;
     background: #4D0000;
-    padding: 0.5rem;
+    padding: 10px;
     border-radius: 10px;
 }
 
@@ -9,6 +9,41 @@ main {
     border-bottom: 3px solid black;
 }
 
+input {
+    min-width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 1.1rem;
+}
+
 #result {
     font-size: 1.5rem;
+}
+
+footer p {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 500px) {
+    main button {
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 800px) {
+    input {
+        min-width: 300px;
+    }
+
+    button {
+        min-width: 100px;
+    }
 }
