@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+        <script src="sources.js"></script>
+        <link href="generator.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <h1>Some say...</h1>
+        <main>
+
+            <div x-data="{
+                soldierName: '',
+                sentence: '',
+                operationName: 'Jammywammer',
+
+                buildSentence() {
+                    this.sentence = chooseEntry(this.operationName, this.soldierName);
+                }
+            }">
+                <label for="name">Soldier name</label>
+                <input x-model="soldierName" id="name">
+                <label for="missionName">Operation Name</label>
+                <input x-model="operationName" id="missionName">
+                <button @click="buildSentence()">Generate</button>
+
+                <p x-text="sentence"></p>
+            </div>
+
+        </main>
+        <footer>
+            <h1>What is this?</h1>
+            <p>A tool to help me shitpost better when Christopher Odd next does an XCOM 2 season. And to teach myself <a href="https://alpinejs.dev/start-here">Alpine.js</a></p>
+        </footer>
+    </body>
+</html>
