@@ -18,11 +18,13 @@
                     this.sentence = chooseEntry(this.operationName, this.soldierName);
                 }
             }">
-                <label for="name">Soldier name</label>
-                <input x-model="soldierName" id="name">
-                <label for="missionName">Operation Name</label>
-                <input x-model="operationName" id="missionName">
-                <button @click="buildSentence()">Generate</button>
+                <div id="inputs">
+                    <label for="name">Soldier name</label>
+                    <input x-model="soldierName" id="name">
+                    <label for="missionName">Operation Name</label>
+                    <input x-model="operationName" id="missionName">
+                    <button @click="buildSentence()">Generate</button>
+                </div>
 
                 <p id="result" x-text="sentence"></p>
             </div>
