@@ -62,5 +62,8 @@ footer p {
     input {
         min-width: 300px;
     }
+    button {
+        min-width: 300px;
+    }
 
 }
