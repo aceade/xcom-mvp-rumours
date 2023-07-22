@@ -44,7 +44,7 @@
                     <template x-for="character in characters">
                         <li class="character">
                             <p class="characterTitle" x-text="character.title"></p>
-                            <img x-bind:src="character.url" alt="character.alt"/>
+                            <img x-bind:src="character.url" x-bind:alt="character.alt"/>
                             <p class="characterText" x-text="character.text"></p>
                         </li>
                     </template>
@@ -53,7 +53,8 @@
         </aside>
         <footer>
             <h1>What is this?</h1>
-            <p>A tool to help me post better nonsense in the comments when Christopher Odd next does an XCOM 2 season. And to teach myself <a href="https://alpinejs.dev/start-here">Alpine.js</a>.</p>
+            <p>A tool to help me post better nonsense in the comments when Christopher Odd next does an XCOM 2 season. And to get more familiar with <a href="https://alpinejs.dev/start-here">Alpine.js</a>, and to practice making sites more accessible.</p>
+            <p>If you want to see the source code, <a href="https://github.com/aceade/xcom-mvp-rumours">you can find it here</a>.</p>
         </footer>
     </body>
 </html>

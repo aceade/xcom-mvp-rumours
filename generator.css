@@ -50,14 +50,14 @@ footer p {
     font-size: 1.2rem;
 }
 
-ul {
+aside ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: top;
 }
 
-li {
+aside li {
     list-style: none;
     display: grid;
     grid-template-rows: 2rem;
