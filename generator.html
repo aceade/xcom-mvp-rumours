@@ -3,6 +3,7 @@
         <title>XCOM MVP Sentence Generator</title>
         <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
         <script src="sources.js"></script>
+        <script src="characters.js"></script>
         <link href="generator.css" rel="stylesheet"/>
     </head>
     <body>
@@ -30,9 +31,29 @@
             </div>
 
         </main>
+        <aside>
+            <h2>Recurring Characters</h2>
+            <div x-data="{
+                showCharacters: false,
+                toggleCharacters() {
+                    this.showCharacters = !this.showCharacters;
+                }
+            }">
+                <button @click="toggleCharacters()">Show/Hide</button>
+                <ul x-show="showCharacters===true">
+                    <template x-for="character in characters">
+                        <li class="character">
+                            <p class="characterTitle" x-text="character.title"></p>
+                            <img x-bind:src="character.url" alt="character.alt"/>
+                            <p x-text="character.text"></p>
+                        </li>
+                    </template>
+                </ul>
+            </div>
+        </aside>
         <footer>
             <h1>What is this?</h1>
-            <p>A tool to help me shitpost better when Christopher Odd next does an XCOM 2 season. And to teach myself <a href="https://alpinejs.dev/start-here">Alpine.js</a>.</p>
+            <p>A tool to help me post better nonsense in the comments when Christopher Odd next does an XCOM 2 season. And to teach myself <a href="https://alpinejs.dev/start-here">Alpine.js</a>.</p>
         </footer>
     </body>
 </html>

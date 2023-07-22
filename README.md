@@ -5,3 +5,4 @@ Less facetiously, this is a way for me to teach myself [Alpine.js](https://alpin
 
 ## Credits
 Thanks to Christopher Odd for all the entertainment.
+Some of the generateds rumours also come from the hilarious XCOM fanfic "Things XCOM Operatives Are No Longer Allowed To Do".

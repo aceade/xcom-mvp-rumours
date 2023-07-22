@@ -19,7 +19,7 @@ const foods = [
 	"fried dough",
 	"Southern fried pootis bird",
 	"rat stew",
-	"a Chrysallid spice bag"
+	"Chrysallid spice bag"
 ];
 
 const alcohol = [

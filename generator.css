@@ -50,6 +50,37 @@ footer p {
     font-size: 1.2rem;
 }
 
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+}
+
+li {
+    list-style: none;
+    display: grid;
+    grid-template-rows: 2rem;
+    max-width: 200px;
+    text-align: justify;
+    margin-right: 1rem;
+}
+
+.characterTitle {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.character img {
+    max-height: 100px;
+    margin-top: 10px;
+}
+
+aside {
+    border-bottom: 2px solid black;
+}
+
 @media (max-width: 500px) {
 
     input {
