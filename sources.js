@@ -31,7 +31,7 @@ const alcohol = [
 	"Weissbier"
 ];
 
-// I hate npm and yarn
+// I hate npm and yarn. Maven can also be annoying at times.
 const developmentTools = [
 	"npm install",
 	"yarn install",
@@ -52,9 +52,9 @@ const eldersFavourites = [
 ];
 
 // how to defeat the Warlock in the most ridiculous manner possible
-// because he's easily the funniest to do this to
+// because he's easily the funniest to do these to
 const prankItems = [
-	"a bucket of water balanced above a doorway",
+	"a bucket of water balanced above a door",
 	"a carefully placed banana peel",
 	"a rake in a doorway",
 	"an anvil to the head",
@@ -114,7 +114,6 @@ const secondEntries = [
 	"they find ADVENT burgers to be excellent rat bait",
 	`9 out of 10 Mutons agree that their ${getRandomIndex(foods)} is to die for`,
 	"7 out of 11 Vipers think the resulting footage was hilarious",
-	"they are fluent in three different dialects of Parseltongue",
 	"the Hunter is secretly terrified of their coffee",
 	"the Speaker occasionally wakes up screaming about them covering him in whipped cream",
 	`they know 2 facts about ${getRandomIndex(corpses)}s, both of which are wrong`,
@@ -126,7 +125,8 @@ const secondEntries = [
 	`they once defeated the Warlock with ${getRandomIndex(prankItems)}`,
 	"the Thalmor name for them translates as 'F***ing Run!'",
 	"they have 11 PHDs in Engineering",
-	"the Warlock is in the same guild as them in World of Wololo"
+	"the Warlock is in the same guild as them in World of Wololo",
+	"the Warlock once agreed to help them hit the Speaker in the face with a custard pie"
 ];
 
 
